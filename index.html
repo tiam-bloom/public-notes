@@ -12,8 +12,9 @@
     window.$docsify = {
       name: '我的知识库',
       repo: 'https://github.com/tiam-bloom/private-notes',
-      search: 'auto',
-      loadSidebar: true
+	  loadSidebar: true,  // 👈 必须开启
+      subMaxLevel: 2,     // 👈 显示二级目录
+      search: 'auto'      // 👈 搜索
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
